@@ -53,3 +53,6 @@ if name == "main":
     except KeyboardInterrupt: 
         change_mac(interface, current_mac) 
         print("\n[+] Quitting Program...")
+    KeyboardInterrupt()
+    print()
+    get-current-mac()
